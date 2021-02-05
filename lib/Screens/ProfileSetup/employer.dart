@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_auth/Screens/Login/components/background.dart';
-import 'package:flutter_auth/components/rounded_input_field.dart';
-import 'package:flutter_auth/constants.dart';
+
+import '../../components/rounded_input_field.dart';
+import '../../constants.dart';
+import '../Login/components/background.dart';
 
 class Employer extends StatelessWidget {
   @override
