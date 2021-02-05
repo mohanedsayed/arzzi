@@ -20,9 +20,22 @@ class Employer extends StatelessWidget {
               ),
               PageDivider(),
               SizedBox(
-                height: size.height * 0.1,
+                height: size.height * 0.05,
               ),
               Text('Now fill in your job requirments'),
+              RoundedInputField(
+                icon: Icons.account_circle_outlined,
+                hintText: 'Age',
+              ),
+              DropdownButton(
+                hint: Text('choose the skills you need'),
+                items: [
+                  DropdownMenuItem(
+                    child: Text('mm'),
+                  )
+                ],
+                onChanged: null,
+              )
             ],
           ),
         ),
